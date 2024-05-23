@@ -10,9 +10,12 @@ function App() {
         { nombre: "Tarea 1", completada: false, fechaIngreso: Date.now(), tachado: null },
     ]);
 
-    const agregarTarea = (tarea) => {
-        if (tarea !== '') {
-            setTareas([...tareas, { nombre: tarea, completada: false, fechaIngreso: Date.now(), tachado: null }]);
+    const [tareaActual, setTareaActual] = useState('');
+
+    const agregarTarea = () => {
+        if (tareaActual !== '') {
+            setTareas([...tareas, { nombre: tareaActual, completada: false, fechaIngreso: Date.now(), tachado: null }]);
+            setTareaActual('');
         }
     };
 
@@ -21,7 +24,7 @@ function App() {
         setTareas(nuevasTareas);
     };
 
-    const toggleTarea = (index) => {
+    const tareaa = (index) => {
         const nuevasTareas = tareas.map((tarea, i) => {
             if (i === index) {
                 return { ...tarea, completada: !tarea.completada, tachado: !tarea.completada ? Date.now() : null };
@@ -50,9 +53,9 @@ function App() {
         <div className="padre">
             <div className="hijo">
                 <Titulo />
-                <Input agregarTarea={agregarTarea} />
-                <Tareas tareas={tareas} toggleTarea={toggleTarea} eliminarTarea={eliminarTarea} />
+                <Input setTareaActual={setTareaActual} />
                 <Botones tareaMasRapida={tareaMasRapida} agregarTarea={agregarTarea} />
+                <Tareas tareas={tareas} tareaa={tareaa} eliminarTarea={eliminarTarea} />
             </div>
         </div>
     );
