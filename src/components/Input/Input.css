@@ -1,0 +1,15 @@
+.nuevaLista {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(179, 179, 179);
+}
+
+.div-input {
+    background-color: rgb(179, 179, 179);
+    display: flex;
+    align-items: center;
+    border: none;
+   
+}

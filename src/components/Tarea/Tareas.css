@@ -1,0 +1,38 @@
+.ul-lista {
+    font-size: 30px;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.li-listas {
+    background-color: gray;
+}
+
+.ul-lista li {
+    background-color: #fefefe;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.ul-lista li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.ul-lista li label {
+    flex-grow: 1;
+}
+
+.eliminar-btn {
+    background-image: url('/public/deleteicon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
