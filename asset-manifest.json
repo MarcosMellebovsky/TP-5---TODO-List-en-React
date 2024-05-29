@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MarcosMellebovsky/TP-5---TODO-List-en-React.git/static/css/main.b4061511.css",
+    "main.js": "/MarcosMellebovsky/TP-5---TODO-List-en-React.git/static/js/main.3cbed45d.js",
+    "static/js/453.d1dc852a.chunk.js": "/MarcosMellebovsky/TP-5---TODO-List-en-React.git/static/js/453.d1dc852a.chunk.js",
+    "index.html": "/MarcosMellebovsky/TP-5---TODO-List-en-React.git/index.html",
+    "main.b4061511.css.map": "/MarcosMellebovsky/TP-5---TODO-List-en-React.git/static/css/main.b4061511.css.map",
+    "main.3cbed45d.js.map": "/MarcosMellebovsky/TP-5---TODO-List-en-React.git/static/js/main.3cbed45d.js.map",
+    "453.d1dc852a.chunk.js.map": "/MarcosMellebovsky/TP-5---TODO-List-en-React.git/static/js/453.d1dc852a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4061511.css",
+    "static/js/main.3cbed45d.js"
+  ]
+}
